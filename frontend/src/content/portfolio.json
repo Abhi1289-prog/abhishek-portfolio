@@ -1,0 +1,324 @@
+{
+  "profile": {
+    "name": "Abhishek S",
+    "title": "Full Stack & ML Engineer",
+    "taglineOptions": [
+      "Technical Expertise – Skilled in MERN stack, Python, Java, Data Structures & Algorithms, AWS cloud services (EC2, IAM, S3), and cybersecurity tools (Kali Linux, ethical hacking).",
+      "Practical Experience – Hands-on internships in cloud technology and cybersecurity analysis, plus project development of Blood Link, a MERN-based life-saving web application integrating donor-recipient matching and emergency alerts.",
+      "Strengths & Achievements – Strong problem-solving and communication skills, HackerRank certifications in C, Python, and problem-solving, with additional training in Unix/Linux fundamentals through Infosys Springboard."
+    ],
+    "summary": "I build high-impact digital products at the intersection of AI, full stack development, and product design. I focus on performant systems, cloud-ready deployments, and usability-driven engineering that supports real business outcomes.",
+    "resumeUrl": "https://drive.google.com/file/d/19kWD4Ykql-DaWQ8OSOU7O7JiBwKr4nXZ/view?usp=sharing",
+    "email": "abhishek.s9886@gmail.com",
+    "location": "Remote / Bangalore, IND",
+    "photoUrl": "/photo.png",
+    "photoAlt": "Abhishek S profile photo",
+    "socials": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Abhi1289-prog"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/abhishek-s-software-dev"
+      },
+      {
+        "label": "X",
+        "url": "https://x.com"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "React / Next.js",
+      "level": 95,
+      "category": "Frontend"
+    },
+    {
+      "name": "TypeScript",
+      "level": 93,
+      "category": "Frontend"
+    },
+    {
+      "name": "Node.js / FastAPI / Spring Boot",
+      "level": 91,
+      "category": "Backend"
+    },
+    {
+      "name": "Python / ML",
+      "level": 88,
+      "category": "AI"
+    },
+    {
+      "name": "PostgreSQL / MongoDB",
+      "level": 87,
+      "category": "Data"
+    },
+    {
+      "name": "Cloud / CI-CD",
+      "level": 82,
+      "category": "DevOps"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Blood Link",
+      "description": "Online platform connecting blood donors and recipients for emergency needs with ml model to predict blood group using fingerprint data.",
+      "longDescription": "Led a 2-member team to design and develop a MERN-based web application for emergency blood donation.Integrated donor registration, emergency alerts, and fingerprint-based blood group detection.Coordinated with medical student delivery partners for doorstep blood collection.",
+      "tech": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express.js",
+        "Scikit-learn"
+      ],
+      "category": "Full Stack and ML",
+      "image": "Blood Link web app interface showing donor registration and emergency alert features",
+      "liveUrl": "#",
+      "githubUrl": "https://github.com/Abhi1289-prog/Blood-Link.git",
+      "highlights": [
+        "Full-stack blood donation system with an Express backend and a mixed static + React frontend.",
+        "User auth and verification via email OTP and SMS OTP.",
+        "Blood type prediction using a saved machine learning model.",
+        "Email delivery through Gmail OAuth2 and SMS delivery via Fast2SMS."
+      ]
+    },
+    {
+      "title": "ROOT CAUSE ANALYSIS & PREVENTION SYSTEM FOR AIR POLLUTION",
+      "description": "The AI-Powered Urban Pollution Root Cause Intelligence Platform is a production-grade, smart-city environmental analytics platform. It combines real-time data ingestion (OpenAQ and weather APIs), predictive machine learning (XGBoost), and explainable AI (Gemini LLM & ChromaDB RAG) to detect, analyze, and explain the root causes of urban air pollution. The platform presents these insights through an interactive React dashboard with mapping, automated policy reporting, and a conversational assistant.",
+      "longDescription": "The AI-Powered Urban Pollution Root Cause Intelligence Platform is a full-stack, dockerized smart-city system that integrates real-time spatial data, APIs, machine learning, and LLMs to make air quality factors explainable and actionable. It combines a React-based interactive frontend with a FastAPI backend, XGBoost ML inference, vector databases, and asynchronous pipelines to diagnose pollution sources like traffic, industry, construction, or biomass. By merging live AQI data with historical records, analytics, and AI-driven policy recommendations, it empowers city administrators and residents to understand and mitigate urban air pollution effectively.",
+      "tech": [
+        "FastAPI",
+        "Uvicorn",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "ChromaDB",
+        "XGBoost",
+        "Gemini AI",
+        "Celery",
+        "React",
+        "Vite",
+        "TailwindCSS",
+        "Leaflet",
+        "Recharts",
+        "Docker"
+      ],
+      "category": "Web and AI",
+      "image": "Air pollution analytics dashboard with real-time data visualization",
+      "liveUrl": "#",
+      "githubUrl": "#",
+      "highlights": [
+        "Explainable AI (XAI) → Root cause + natural language recommendations",
+        "RAG Chatbot → Context-aware, policy-aligned responses",
+        "Real-Time Data Pipeline → Continuous ingestion + synthesis",
+        "Glassmorphism Dashboard → Live hotspots, predictive breakdown, time-series trends"
+      ]
+    },
+    {
+      "title": "ContentOps AI Engine",
+      "description": "AI-powered enterprise content automation platform for creation, compliance review, localization, and multi-channel publishing.",
+      "longDescription": "Built a multi-agent AI workflow that transforms enterprise knowledge into audience-specific content assets while automating compliance checks, brand governance, localization, formatting, and publishing across multiple channels with human-in-the-loop approvals.",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "Docker",
+        "MongoDB",
+        "LLM",
+        "Vector DB"
+      ],
+      "category": "AI/ML",
+      "image": "Enterprise AI agents automating content creation, compliance, localization, and publishing workflow",
+      "liveUrl": "#",
+      "githubUrl": "#",
+      "highlights": [
+        "Automated end-to-end enterprise content lifecycle using multi-agent AI orchestration",
+        "Implemented compliance and brand governance validation with human review checkpoints",
+        "Enabled multilingual localization and multi-channel content publishing",
+        "Integrated AI safety guardrails including prompt injection and content validation",
+        "Reduced manual content processing time through intelligent workflow automation"
+      ]
+    },
+    {
+      "title": "OrderFlow AI",
+      "description": "AI-powered conversational order tracking and manufacturing operations platform with RAG-based product and SOP intelligence.",
+      "longDescription": "Built a hybrid AI + rule-engine manufacturing operations system that automates order creation, tracking, quality logging, SOP retrieval, and product catalog intelligence using token-efficient LLM workflows, FAISS vector search, RBAC security, and stateless FastAPI architecture.",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "SQLite",
+        "FAISS",
+        "Docker",
+        "OpenAI",
+        "JWT",
+        "LangChain"
+      ],
+      "category": "AI/ML",
+      "image": "Industrial manufacturing dashboard with AI-powered order tracking, vector search, and quality inspection workflow",
+      "liveUrl": "#",
+      "githubUrl": "#",
+      "highlights": [
+        "Implemented hybrid AI + deterministic rule-engine architecture for zero-token operational workflows",
+        "Built RAG-powered product catalog and SOP retrieval using FAISS vector embeddings",
+        "Developed secure RBAC system with JWT authentication for User, Operator, and Quality roles",
+        "Designed stateless conversational API with OpenAI function-calling and token usage analytics",
+        "Created end-to-end manufacturing order lifecycle with quality inspection and compliance tracking",
+        "Achieved token-efficient AI processing using selective LLM invocation and retrieval optimization"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "SAP Business Data Cloud Certification",
+      "issuer": "SAP",
+      "date": "2026-04",
+      "URL": "https://www.credly.com/badges/b6e5ba3d-f7c1-476b-b9b3-103f08c22def",
+      "details": "This journey has strengthened my understanding of enterprise data management, cloud integration, and analytics—skills that are vital for building scalable solutions in today’s tech-driven world."
+    },
+    {
+      "title": "Introduction to Data Analysis Using Python",
+      "issuer": "Google",
+      "date": "2026-04",
+      "URL": "https://coursera.org/verify/12HAH1QSW9QF",
+      "details": "This course has equipped me with essential data analysis skills using Python, including data manipulation, visualization, and statistical analysis. These skills are crucial for making informed decisions and deriving insights from complex datasets in any tech role."
+    },
+    {
+      "title": "Data Structures in C",
+      "issuer": "University of Michigan",
+      "date": "2026-04",
+      "URL": "https://coursera.org/verify/KN35LH48QWBE",
+      "details": "This course has provided me with a solid foundation in data structures using C, enhancing my problem-solving abilities and understanding of algorithmic efficiency. These skills are essential for optimizing code performance and building efficient software solutions."
+    },
+    {
+      "title": "The Joy of Computing using Python",
+      "issuer": "IIT Madras",
+      "date": "2026-04",
+      "URL": "https://drive.google.com/file/d/1LxxVXoG0yjx8bcZq4xDgkGnydYgBp27X/view?usp=sharing",
+      "details": "This course has deepened my understanding of programming concepts and Python language features, enabling me to write more efficient and effective code. The skills gained from this course are invaluable for any software development role, as Python is widely used in various domains including web development, data science, and automation."
+    }
+  ],
+  "journey": [
+    {
+      "period": "2024",
+      "title": "Started Full Stack Development",
+      "content": [
+        "Learned frontend and backend development",
+        "Built first MERN stack projects",
+        "Explored React, Node.js, Express, and MongoDB",
+        "Developed understanding of APIs and databases",
+        "Started creating real-world problem-solving applications"
+      ],
+      "badge": "First Development Journey",
+      "icon": "code"
+    },
+    {
+      "period": "Late 2024",
+      "title": "Built Initial Real-World Applications",
+      "content": [
+        "Developed practical web applications",
+        "Improved UI/UX and backend integration skills",
+        "Learned authentication, REST APIs, and deployment basics",
+        "Started working on scalable project structures",
+        "Focused on converting ideas into working products"
+      ],
+      "badge": "Project Building",
+      "icon": "laptop"
+    },
+    {
+      "period": "2025",
+      "title": "Entered AI & Intelligent Systems Development",
+      "content": [
+        "Built first AI-powered project",
+        "Started exploring machine learning and intelligent automation",
+        "Worked on AI-based healthcare and emergency response concepts",
+        "Combined MERN stack with AI workflows",
+        "Learned about vector databases, RAG systems, and AI agents"
+      ],
+      "projects": [
+        "Blood Link",
+        "Disaster Chain Link",
+        "Raseed AI Finance Assistant"
+      ],
+      "badge": "AI Innovation",
+      "icon": "brain"
+    },
+    {
+      "period": "2025",
+      "title": "Exploring Advanced AI Systems",
+      "content": [
+        "Learned Agentic AI concepts",
+        "Worked on AI-driven decision systems",
+        "Studied industry-focused AI architectures",
+        "Explored automation, analytics, and predictive systems",
+        "Started learning scalable system design concepts"
+      ],
+      "badge": "Advanced AI Learning",
+      "icon": "cpu"
+    },
+    {
+      "period": "2026",
+      "title": "Expanded into Research, IEEE & Technical Leadership",
+      "content": [
+        "Became active in IEEE technical activities",
+        "Coordinated technical events and outreach",
+        "Connected with international speakers and researchers",
+        "Explored research-oriented AI and cloud systems",
+        "Improved communication and technical presentation skills"
+      ],
+      "badge": "Leadership & Research",
+      "icon": "users"
+    },
+    {
+      "period": "2026",
+      "title": "Cloud, Internship & Product Engineering Goals",
+      "content": [
+        "Targeting mastery in cloud technologies like AWS and Google Cloud",
+        "Preparing for internships in product-based companies",
+        "Building scalable AI + cloud integrated applications",
+        "Learning deployment, DevOps, and production-level architectures",
+        "Improving DSA, system design, and software engineering fundamentals",
+        "Exploring MLOps, cloud AI services, and distributed systems",
+        "Goal to become an AI Engineer / Full Stack AI Developer"
+      ],
+      "badge": "Current Mission",
+      "icon": "rocket"
+    },
+    {
+      "period": "Future Vision",
+      "title": "Future Vision",
+      "content": [
+        "Build impactful AI products for healthcare, finance, and disaster management",
+        "Contribute to innovative AI research and scalable intelligent systems",
+        "Work on global technology products",
+        "Create solutions that combine AI, cloud, and real-world usability"
+      ],
+      "badge": "Future Vision",
+      "icon": "target"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Projects Completed",
+      "value": 34,
+      "suffix": "+"
+    },
+    {
+      "label": "Technologies Used",
+      "value": 27,
+      "suffix": "+"
+    },
+    {
+      "label": "Years Building",
+      "value": 7,
+      "suffix": "+"
+    },
+    {
+      "label": "Client Satisfaction",
+      "value": 98,
+      "suffix": "%"
+    }
+  ]
+}
