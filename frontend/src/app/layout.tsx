@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Abhishek S — Full Stack & ML Engineer",
+  title: "Abhishek S — Full Stack & AI Engineer",
   description:
     "Modern interactive portfolio showcasing projects, certifications, technical journey, and product-focused engineering expertise.",
   keywords: [

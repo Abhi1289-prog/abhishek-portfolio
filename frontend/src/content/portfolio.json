@@ -1,9 +1,9 @@
 {
   "profile": {
     "name": "Abhishek S",
-    "title": "Full Stack & ML Engineer",
+    "title": "Full Stack & AI Engineer",
     "taglineOptions": [
-      "Technical Expertise – Skilled in MERN stack, Python, Java, Data Structures & Algorithms, AWS cloud services (EC2, IAM, S3), and cybersecurity tools (Kali Linux, ethical hacking).",
+      "Technical Expertise – Skilled in MERN stack, Python, Java, Data Structures & Algorithms, AWS cloud services (EC2, IAM, S3), and AI-based systems.",
       "Practical Experience – Hands-on internships in cloud technology and cybersecurity analysis, plus project development of Blood Link, a MERN-based life-saving web application integrating donor-recipient matching and emergency alerts.",
       "Strengths & Achievements – Strong problem-solving and communication skills, HackerRank certifications in C, Python, and problem-solving, with additional training in Unix/Linux fundamentals through Infosys Springboard."
     ],
@@ -21,42 +21,38 @@
       {
         "label": "LinkedIn",
         "url": "https://www.linkedin.com/in/abhishek-s-software-dev"
-      },
-      {
-        "label": "X",
-        "url": "https://x.com"
       }
     ]
   },
   "skills": [
     {
       "name": "React / Next.js",
-      "level": 95,
+      "level": 75,
       "category": "Frontend"
     },
     {
       "name": "TypeScript",
-      "level": 93,
+      "level": 63,
       "category": "Frontend"
     },
     {
       "name": "Node.js / FastAPI / Spring Boot",
-      "level": 91,
+      "level": 81,
       "category": "Backend"
     },
     {
       "name": "Python / ML",
-      "level": 88,
+      "level": 70,
       "category": "AI"
     },
     {
       "name": "PostgreSQL / MongoDB",
-      "level": 87,
+      "level": 85,
       "category": "Data"
     },
     {
       "name": "Cloud / CI-CD",
-      "level": 82,
+      "level": 78,
       "category": "DevOps"
     }
   ],
@@ -198,6 +194,13 @@
       "date": "2026-04",
       "URL": "https://drive.google.com/file/d/1LxxVXoG0yjx8bcZq4xDgkGnydYgBp27X/view?usp=sharing",
       "details": "This course has deepened my understanding of programming concepts and Python language features, enabling me to write more efficient and effective code. The skills gained from this course are invaluable for any software development role, as Python is widely used in various domains including web development, data science, and automation."
+    },
+    {
+      "title": "UNIX & Linux OS Fundamentals",
+      "issuer": "Infosys Springboard",
+      "date": "2026-01",
+      "URL": "https://drive.google.com/file/d/15egUO6RXQz_A_-6jyGcV4zC22Mt8hM7F/view?usp=drive_link",
+      "details": "Explored fundamentals of Linux Operating System, including basic commands, file management, text editing, and system administration concepts. This foundational knowledge is crucial for working in diverse development environments and understanding underlying system operations."
     }
   ],
   "journey": [
